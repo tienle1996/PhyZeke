@@ -4,7 +4,7 @@ const cors = require("cors");
 //const path = __dirname + '/app/views/';
 const app = express();
 var corsOptions = {
-  origin: "http://localhost:3001",
+  origin: "https://phyzeke.herokuapp.com/",
 };
 app.use(cors(corsOptions));
 // parse requests of content-type - application/json
